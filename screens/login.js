@@ -4,7 +4,7 @@ import {AntDesign} from '@expo/vector-icons'
 
 export default function Login(){
     return <View style={{flex:1, alignItems:"center", justifyContent:"center"}}>
-        <Image style={{width:150,height:150, borderRadius:10, marginBottom: 25}}
+        <Image style={{width:150,height:150, borderRadius:10, marginBottom: 25,transform: [{rotate: '36deg'}]}}
         source={{uri:"https://www.montaguebikes.com/wp-content/uploads/2020/08/M-E1-Folded-800.jpg"}}
         />
         <Text style={{color: "#8c918d", fontSize:24}}>Welcome to</Text>
