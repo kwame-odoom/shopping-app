@@ -18,7 +18,7 @@ export default function Login(){
             <Text style={{color:'white', marginLeft:30, fontSize:20}}>Login with Apple</Text>
         </TouchableOpacity>
         <Text style={{marginTop:10, fontWeight:'600',color: "#8c918d"}}>
-            Not a member? <Text style={{color:"#e05a07"}}>SignUp</Text>
+            Not a member? <TouchableOpacity><Text style={{color:"#e05a07"}}>SignUp</Text></TouchableOpacity>
         </Text>
     </View>
 }
